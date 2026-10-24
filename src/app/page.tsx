@@ -230,34 +230,6 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-
-        {/* ===== CLOSING THOUGHT ===== */}
-        <section style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>
-          <div className="container-narrow" style={{ textAlign: "center" }}>
-            <p
-              style={{
-                fontFamily: "var(--font-lora, 'Lora', serif)",
-                fontSize: "1.25rem",
-                color: "#6B5A4E",
-                fontStyle: "italic",
-                lineHeight: "1.7",
-                maxWidth: "460px",
-                margin: "0 auto",
-              }}
-            >
-              &ldquo;Skripsi memang serius, tapi kamu nggak harus menjalani semuanya sambil tegang.&rdquo;
-            </p>
-            <p
-              style={{
-                marginTop: "1rem",
-                fontSize: "0.82rem",
-                color: "#B6A397",
-              }}
-            >
-              — Tenang, kamu tidak harus menyelesaikan satu bab hari ini.
-            </p>
-          </div>
-        </section>
       </main>
       <Footer />
     </>
