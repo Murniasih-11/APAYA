@@ -56,7 +56,7 @@ export default function HomePage() {
                 marginRight: "auto",
               }}
             >
-              Dua puluh pertanyaan. Lima belas kemungkinan nasib skripsi.
+              20 pertanyaan. 15 kemungkinan nasib skripsi.
               Satu kucing yang siap menilai hidupmu dengan tatapan datar.
             </p>
 
