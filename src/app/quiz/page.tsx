@@ -180,16 +180,7 @@ export default function QuizPage() {
           )}
 
           {/* Navigation */}
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "center",
-              marginTop: "1.5rem",
-              gap: "0.75rem",
-              flexWrap: "wrap",
-            }}
-          >
+          <div className="quiz-nav-grid">
             <button
               id="btn-prev"
               className="btn-secondary"
@@ -197,7 +188,6 @@ export default function QuizPage() {
               disabled={currentIndex === 0}
               style={{
                 visibility: currentIndex === 0 ? "hidden" : "visible",
-                minWidth: "120px",
               }}
               aria-label="Kembali ke pertanyaan sebelumnya"
             >
@@ -210,7 +200,6 @@ export default function QuizPage() {
                 className="btn-primary"
                 onClick={handleSubmit}
                 disabled={!allAnswered || isSubmitting}
-                style={{ flex: "1", maxWidth: "280px" }}
               >
                 {isSubmitting ? "Menghitung..." : "Lihat hasilku →"}
               </button>
@@ -219,7 +208,6 @@ export default function QuizPage() {
                 id="btn-next"
                 className="btn-primary"
                 onClick={handleNext}
-                style={{ flex: "1", maxWidth: "200px" }}
                 aria-label="Lanjut ke pertanyaan berikutnya"
               >
                 Lanjut →
